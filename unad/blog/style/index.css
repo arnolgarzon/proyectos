@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    
+}
+.header{
+    text-align: center;
+}
+.header h2{
+    margin-top: 4vw;
+    margin-bottom:2vw;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5.5vw;
+}
+.header h3{
+    font-family: 'Rampart One', cursive;
+    font-size:2.8vw;
+}
+.c-s{
+text-align: center;
+margin-top:4vw;
+}
+.c-s h1{
+    font-family: 'Caveat', cursive;
+    font-size: 3.4vw;
+}
+.c-s h3{
+    text-align: left;
+    padding-left:9vw;
+    margin-top:2vw;
+    font-family: 'Caveat', cursive;
+    font-size: 3.2vw;
+}
+.c-s h4{
+    text-align: left;
+    padding-left: 9vw;
+    margin-top: 3vw;
+    font-family: 'Indie Flower', cursive;
+    font-size:2vw;
+}
+.c-s p{
+    text-align: justify;
+    margin-top: 3vw;
+    padding-left: 9vw;
+    padding-right: 18vw;
+    font-family: 'Comfortaa', cursive;
+}
+.list{
+    text-align: left;
+    padding-left: 9vw;
+    font-family: 'Comfortaa', cursive;
+}
+.list h3{
+    padding-top: 4vw;
+    padding-left: 0;
+    padding-bottom: 2vw;
+}
+.list li{
+    padding-right: 18vw;
+    list-style:circle;
+}
+
+.list p{
+    padding-left: 0;
+}
+.frontyback{
+    text-align:justify;
+    padding-left: 9vw;
+    margin-top: 3vw;
+}
+.frontyback h3{
+    font-family: 'Caveat', cursive;
+    font-size: 3.2vw;
+    margin-top: 2vw;
+}
+.frontyback p{
+    margin-top:2vw;
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 3vw;
+    padding-right: 18vw;
+}
+.footer{
+    padding-top:4vw;
+    padding-bottom:4vw;
+    text-align:center;
+}
+.footer p{
+    font-family: 'caveat', cursive;
+    font-size:2vw;
+}
+.footer span{
+    font-family: 'Rampart One', cursive
+}
