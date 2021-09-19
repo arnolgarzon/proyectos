@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?4yl6k0');
+    src: url('../fonts/icomoon.eot?4yl6k0#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?4yl6k0') format('truetype'), url('../fonts/icomoon.woff?4yl6k0') format('woff'), url('../fonts/icomoon.svg?4yl6k0#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-menu:before {
+    content: "\e900";
+  }
+body{
+    background: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
+
+}
+.nav-bar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 8vw;
+}
+.nav-bar img{
+    height:10vw;
+}
+.nav-bar h1{
+    text-align:center;
+    padding-right: 2vw;
+}
+.nav-bar span{
+    font-size:4vw;
+    margin-right: 6vw;
+}
+.principal{
+    display: flex;
+    margin-top: 6vw;
+   }
+.gallery img{
+    width:60vw;
+    padding-left: 5vw;
+}
+.content {
+   
+}
+.content h3{
+    margin-top: 3vw;
+    margin-left: 8vw;
+    margin-right: 1vw;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-top: 6%;
+    padding-bottom: 2.4vw;
+   }
+   .form-media{
+       padding-left: 10vw;
+   }
+   .form-media span{
+       padding-left:1.5vw;
+   }
