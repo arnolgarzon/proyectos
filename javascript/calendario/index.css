@@ -1,0 +1,25 @@
+.month{
+    margin-top:4vw;
+    text-align: center;
+}
+.days{
+    margin-top:4vw;
+    text-align: center;
+    padding-right: 3vw;
+}
+.days ul{
+    padding-top: 2vw;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 8px;
+    list-style: none;
+}
+.days li{
+    font-size: 4vw;
+    padding-top: 1.3vw;
+    text-align: center;
+    align-items:center;
+    background:rgb(209, 18, 18);
+    width: 80px;
+    height: 65px;
+}
