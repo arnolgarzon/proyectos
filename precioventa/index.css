@@ -1,0 +1,32 @@
+* {
+background: #09CBF2;
+margin: 0;
+padding: 0;
+}
+
+.formulario{
+    padding-top: 4vw;
+    
+}
+.formulario h2 {
+    text-align: center;
+}
+form ul{
+    padding-right: 8vw;
+    padding-left: 8vw;
+    padding-top: 4vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8px;
+    list-style: none;
+}
+
+.botones {
+    text-align:center;
+    align-items: center;
+    padding-top: 7vw;
+}
+.resultado{
+    padding-top: 5vw;
+    text-align:center;
+}

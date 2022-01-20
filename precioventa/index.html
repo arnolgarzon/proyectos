@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Valor</title>
 </head>
 <body>
@@ -25,12 +26,16 @@
                 <layaut>Peso</layaut>
                 <input type="number" name="peso" id="inputWeight">
             </ul>
-            <button id="buttonSend">Enviar</button>
+            <div class="botones">
+            <button id="buttonSend">Calcular</button>
             <input type="reset" value="Eliminar">
+            </div>
         </form>
     </div>
-    <h2 id="producto"></h2>
-    <span>El valor del producto es: </span><span id="valorFinal"></span>
+    <div class="resultado">
+    <h3 id="producto"></h3>
+    <h3 id="valor"></h3>
+    </div>
     <script src="valor.js"></script>   
 </body>
 </html>
