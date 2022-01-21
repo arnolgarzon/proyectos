@@ -22,9 +22,6 @@ function calcularPrecio(){
     categoria = (parseInt(inputCategory.value));
 
     calcularCostoEnvio();
-    //operador ternario
-     (value > 200) ? alert("el iva es de: " + iva) : alert("no tiene iva");
-
     // switch case
     switch (categoria) {
         case 1 : 
@@ -56,7 +53,7 @@ function calcularPrecio(){
         valueEnd = ((envio + value + arancel) * 1.1 ) / (1 - comision);
     }
     nombreHtml.innerHTML = "Tu producto es: " + inputName.value;
-    valorHtml.innerHTML = "el costo total del envio es: " + valueEnd;
+    valorHtml.innerHTML = "el costo total del producto es: " + valueEnd.toFixed(2);
 }
 function calcularCostoEnvio (){
     peso = (parseInt(inputWeight.value));
@@ -64,10 +61,9 @@ function calcularCostoEnvio (){
         for (let i = 0; i < (peso - 4); i++){
         envio += 2
         }
-        alert("el costo del envio es: $" + envio);
     }
     else{
-        alert("El costo del envio es: " + envio)
+        console.log("El costo del envio es: " + envio)
     } 
 }
 
