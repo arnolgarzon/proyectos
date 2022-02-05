@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 3vw;
+    text-align: center;
+}
+table{
+    width: 500px;
+    margin: auto;
+}
+table td{
+   width: 160px;
+   height: 160px;
+}
+.reset{
+    text-align: center;
+    margin-top:2vw;
+}
+.reset button:hover{
+    background : rgb(134, 2, 2);
+    cursor: pointer;
+}
